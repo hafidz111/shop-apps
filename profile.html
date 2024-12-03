@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between mb-3">
+            <h1>Profile</h1>
+            <a href="logout.html" class="btn btn-danger">Logout</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;" center>
+        <img id="profile-image" src="https://via.placeholder.com/100" alt="Profile Image">
+        <div class="card-body">
+            <h1 id="profile-name"></h1>
+            <p id="profile-email"></p>
+        </div>
+    </div>
+    <div class="profile-details">
+        <h2>Details</h2>
+        <p id="profile-first-name"></p>
+        <p id="profile-last-name"></p>
+        <p id="profile-gender"></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
