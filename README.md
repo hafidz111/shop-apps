@@ -1,3 +1,4 @@
+# SHOP APP
 Shop app adalah sebuah website e-commerce sederhana yang dirancang untuk menampilkan produk, memungkinkan pengguna login, dan melihat daftar produk. Aplikasi ini menggunakan API DummyJSON sebagai sumber data utama.
 
 Cara menjalankan aplikasi:
